@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Parking DOM TypeScript</title>
+    <meta name="author" content="Kirill Nikitin" />
+    <meta name="description" content="Displaying results on a HTML page as a chronological timeline." />
+    <meta name="keywords" content="typescript,parking,carscounter" />
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" type="text/css" href="dom-style.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="dom-script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="input-file">
+            <input type="file" id="file" alt="Choose file" />
+            <div class="file-button"></div>
+        </div>
+        <div class="or">or</div>
+        <div class="drag-file"><div id="drop-area">Drag file here</div></div>
+        <button id="button">Draw diagram</button>
+    </div>
+    <div id="diagram">
+        <div id="x-line" class="x-line"></div>
+        <div id="y-line" class="y-line"></div>
+    </div>
+</body>
+</html>

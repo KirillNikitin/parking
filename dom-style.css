@@ -1,0 +1,95 @@
+#diagram {width: 980px; height: 350px; margin: 0 auto; position: relative; font: 11px "Tahoma";}
+.num-scale {position: absolute; width: 8px; border-bottom: 1px solid #333; margin-top: -1px; tex-align: left;}
+.cars-time-and-number-view {position: absolute; bottom: 0; background: #AFAFAF; border-left: 1px solid #999; margin-left:-1px; opacity: 0.8;}
+.cars-time-and-number-view-span {position: absolute; margin-top: -27px; width: 70px; padding-left: 2px; }
+.cars-time-and-number-view:hover {}
+.cars-time-and-number-view:hover .cars-time-and-number-view-span {cursor: default;}
+.x-line {height: 92%; bottom: 0; border-left: 1px dashed #777; }
+.y-line {width: 100%; left: 0; border-top: 1px dashed #777;}
+.x-line, .y-line {position: absolute; display: none;}
+.tooltip {position: absolute;     color: #000;
+                                  z-index: 9999;
+                                  background: #fafafa;
+                                  padding: 3px 6px;
+                                  opacity: 0.85;     min-width: 90px;}
+.container {
+    width: 980px;
+    height 150px;
+    margin: auto;
+    text-align: center;
+}
+#file {
+    width: 425px;
+    cursor: pointer;
+    height: 50px;
+    font-size: 1em;
+    padding: 12px 10px;
+    border: 1px dotted #ddd;
+}
+/*.file-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 85px;
+    height: 50px;
+    border: 1px solid #ddd;
+}*/
+.input-file, .drag-file, .or {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.input-file, .drag-file {
+    width: 445px;
+}
+.or {
+    width: 40px;
+    font-size: 3em;
+    color: #999;
+    margin: 5px 20px;
+}
+#drop-area {
+  border: 2px dashed #bbb;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  color: #bbb;
+  font-size: 1.2em;
+}
+#button{
+    display: block;
+    margin: 0 auto;
+    margin: 20px auto;
+    background: #2E8B57;
+    border: 1px solid #3CB371;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none !important;
+}
+#button:hover {
+    background: #3CB371;
+}
+#button:active {
+    margin: 21px auto 19px;
+}
+.info, .errorInfo {
+    padding: 20px 30px;
+    border: 2px solid #B22222;
+    border-radius: 7px;
+    color: #B22222;
+
+    }
+.info {
+    font-size: 1.5em;
+    display: inline-block;
+}
+.errorInfo {
+    font-size: 1.2em;
+    display: block;
+}
